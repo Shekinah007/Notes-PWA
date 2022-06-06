@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/NotePad/static/css/main.4e26e757.css",
+    "main.js": "/NotePad/static/js/main.c75c171f.js",
+    "static/js/787.28cb0dcd.chunk.js": "/NotePad/static/js/787.28cb0dcd.chunk.js",
+    "static/media/pexels-sasha-martynov-1260727.jpg": "/NotePad/static/media/pexels-sasha-martynov-1260727.11c4670af33193fd3094.jpg",
+    "service-worker.js": "/NotePad/service-worker.js",
+    "static/media/logo.svg": "/NotePad/static/media/logo.103b5fa18196d5665a7e12318285c916.svg",
+    "index.html": "/NotePad/index.html",
+    "static/media/calendar_month_black_24dp.svg": "/NotePad/static/media/calendar_month_black_24dp.7d1390c6264216e7ceb2614ad94c5ee9.svg",
+    "static/media/add_circle_black_48dp.svg": "/NotePad/static/media/add_circle_black_48dp.6b15fdbbc8f7f1b388aa9130a0f1ed04.svg",
+    "static/media/schedule_black_24dp.svg": "/NotePad/static/media/schedule_black_24dp.a4b551fe2d4116d8593bc203c24c6122.svg",
+    "static/media/delete_black_24dp.svg": "/NotePad/static/media/delete_black_24dp.1129c53a10f3c716357028ea030e9d23.svg",
+    "static/media/arrow_back_black_48dp.svg": "/NotePad/static/media/arrow_back_black_48dp.5aefa7ce94077cb7fd0af3ec37dc4fe4.svg",
+    "main.4e26e757.css.map": "/NotePad/static/css/main.4e26e757.css.map",
+    "main.c75c171f.js.map": "/NotePad/static/js/main.c75c171f.js.map",
+    "787.28cb0dcd.chunk.js.map": "/NotePad/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4e26e757.css",
+    "static/js/main.c75c171f.js"
+  ]
+}
