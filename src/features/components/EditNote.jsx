@@ -27,7 +27,7 @@ const EditNote = () => {
     dispatch(deleteNote(id));
     dispatch(addNote(title, content));
     localStorage.setItem("Notes", JSON.stringify(notes));
-    history.push("/NotePad");
+    history.push("/Notes-PWA");
   };
   return (
     <div className="Note">

@@ -16,12 +16,12 @@ const Note = () => {
   const handleSave = (e) => {
     e.preventDefault();
     if (title == "" && content == "") {
-      history.push("/NotePad");
+      history.push("/Notes-PWA");
       return;
     }
     dispatch(addNote(title, content));
     localStorage.setItem("Notes", JSON.stringify(notes));
-    history.push("/NotePad");
+    history.push("/NOtes-PWA");
   };
 
   return (

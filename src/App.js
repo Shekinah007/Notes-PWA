@@ -18,7 +18,7 @@ function App() {
     <Router>
       <div className="App">
         <Switch>
-          <Route exact path="/NotePad">
+          <Route exact path="/Notes-PWA">
             <Home />
           </Route>
           <Route exact path="/createNote">
