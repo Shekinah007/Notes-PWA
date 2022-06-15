@@ -42,18 +42,19 @@ code {
 }
 .Navbar {
   width: 100vw;
-  /* top: 0; */
   text-align: left;
   position: fixed;
-  padding-left: 20vw;
-  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  padding-left: 10vw;
+  box-sizing: border-box;
   color:rgb(141, 65, 78);
-  /* background-color: burlywood; */
+  background-color: rgb(241, 224, 197);
   background-color: blanchedalmond;
-  /* background-color: white; */
+  height: 10vh;
 
-  /* padding-block: 0px; */
-  /* height: 10vh; */
+  box-shadow: 0px 0px 7px -3px rgba(0,0,0,0.88); 
+  box-shadow: 0px 0px 7px -3px rgba(0,0,0,0.88);
 }
 
 .noteList {
@@ -67,8 +68,7 @@ code {
   justify-content: center;
   width: 100vw;
   min-height: 100vh;
-  background-image: url("./features/images/pexels-sasha-martynov-1260727.jpg");
-  background: blanchedalmond;
+  /* background-image: url("./features/images/pexels-sasha-martynov-1260727.jpg"); */
   background: burlywood;
   /* background-repeat: repeat;
   background-size: cover; */
@@ -93,9 +93,6 @@ form {
   justify-content: center;  
   background-color: burlywood;
   border-radius: 10px;
-  /* box-shadow: 0px 0px 12px -3px rgba(0,0,0,0.88); 
-  box-shadow: 0px 0px 12px -3px rgba(0,0,0,0.88); */
-  
 }
 
 input, textarea {
@@ -107,7 +104,6 @@ input, textarea {
   
 }
 input{
-  /* padding: 10px; */
   font-weight: 800;
   color: rgb(0, 0, 0);
   text-align: center;
@@ -118,14 +114,13 @@ textarea {
   font-weight: 400;
   max-height: 85vh;
   min-height: 85vh;
-  /* padding: 10px; */
   resize: none;
 }
 
 
 .notePreview {
-  /* background-color: ivory; */
   padding: 5px;
+  width: 80vw;
   width: 80vw;
   text-align: left;
   padding-left: 5px;
@@ -139,8 +134,7 @@ textarea {
   background-color: ivory;
   margin-bottom: 10px;
   transition: 2s;
-  /* Animation */
-  animation: fadeInBottom 0.3s;
+  /* animation: fadeInBottom 0.3s; */
 
   display: flex;
   align-items: flex-end;
@@ -165,8 +159,6 @@ p {
 }
 .deleteButton:hover, .deleteButton:active{
   background-color: rgba(160, 59, 59, 0.4);
-  /* border-radius: 40%; */
-  /* box-shadow: none; */
   box-shadow: 4px 4px 20px -3px rgba(0, 0, 0, 0.88);
 }
 @keyframes fadeInBottom {
@@ -193,7 +185,6 @@ p {
   color: black;
 }
 .dateAndTime {
-  /* margin-left: 90%; */
   color: green;
   font-style: italic;
   font-family: cursive;
@@ -238,8 +229,8 @@ hr {
   transition: 0.5s;
 }
 .backButton:hover {
-  border-radius: 50%;
-  background-color: rgb(255, 253, 253);
+  border-radius: 30%;
+  background-color: rgb(85, 143, 89);
 }
 
 

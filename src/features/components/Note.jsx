@@ -4,6 +4,7 @@ import { useHistory } from "react-router";
 import { addNote } from "../reducers/notesSlice";
 import { allNotes } from "../reducers/notesSlice";
 import BackArrow from "../images/arrow_back_black_48dp.svg";
+import saveIcon from "../images/save_black_48dp.svg";
 
 const Note = () => {
   const [title, setTitle] = useState("");
@@ -21,7 +22,7 @@ const Note = () => {
     }
     dispatch(addNote(title, content));
     localStorage.setItem("Notes", JSON.stringify(notes));
-    history.push("/NOtes-PWA");
+    // history.push("/Notes-PWA");
   };
 
   return (
@@ -41,7 +42,7 @@ const Note = () => {
           onChange={(e) => setContent(e.target.value)}
         />
       </form>
-      <img onClick={handleSave} className="backButton" src={BackArrow} />
+      <img onClick={handleSave} className="backButton" src={saveIcon} />
     </div>
   );
 };

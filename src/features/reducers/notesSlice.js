@@ -3,8 +3,8 @@ import { createSlice, nanoid } from "@reduxjs/toolkit";
 const initialState = [
   {
     id: nanoid(),
-    title: "Greetings",
-    content: "Hello, World.",
+    title: "Hello, World",
+    content: "",
     date:
       new Date().getDay() +
       "-" +
