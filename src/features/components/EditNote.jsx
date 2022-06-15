@@ -28,7 +28,7 @@ const EditNote = () => {
     dispatch(deleteNote(id));
     dispatch(addNote(title, content));
     localStorage.setItem("Notes", JSON.stringify(notes));
-    // history.push("/Notes-PWA");
+    history.push("/Notes-PWA");
   };
   return (
     <div className="Note">
@@ -44,11 +44,15 @@ const EditNote = () => {
         <textarea
           value={content}
           placeholder="Content"
-          onChange={(e) => setContent(e.target.value)}
+          onChange={(e) => {
+            // dispatch(deleteNote(id));
+            // dispatch(addNote(title, content));
+            setContent(e.target.value);
+          }}
         />
       </form>
       <br />
-      <img onClick={handleSave} className="backButton" src={saveIcon} />
+      <img onClick={handleSave} className="backButton" src={BackArrow} />
     </div>
   );
 };

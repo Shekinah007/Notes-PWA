@@ -22,7 +22,7 @@ const Note = () => {
     }
     dispatch(addNote(title, content));
     localStorage.setItem("Notes", JSON.stringify(notes));
-    // history.push("/Notes-PWA");
+    history.push("/Notes-PWA");
   };
 
   return (
@@ -39,10 +39,12 @@ const Note = () => {
         <textarea
           value={content}
           placeholder="Content"
-          onChange={(e) => setContent(e.target.value)}
+          onChange={(e) => {
+            setContent(e.target.value);
+          }}
         />
       </form>
-      <img onClick={handleSave} className="backButton" src={saveIcon} />
+      <img onClick={handleSave} className="backButton" src={BackArrow} />
     </div>
   );
 };
