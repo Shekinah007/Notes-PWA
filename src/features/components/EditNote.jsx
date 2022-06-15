@@ -25,10 +25,18 @@ const EditNote = () => {
 
   const handleSave = (e) => {
     // e.preventDefault();
-    dispatch(deleteNote(id));
-    dispatch(addNote(title, content));
-    localStorage.setItem("Notes", JSON.stringify(notes));
-    history.push("/Notes-PWA");
+
+    // dispatch(deleteNote(id));
+    // dispatch(addNote(title, content));
+
+    let text = document.getElementById("text-content");
+    console.log(text);
+    setTimeout(() => {
+      dispatch(deleteNote(id));
+      dispatch(addNote(title, content));
+      localStorage.setItem("Notes", JSON.stringify(notes));
+      history.push("/Notes-PWA");
+    }, 300);
   };
   return (
     <div className="Note">
@@ -45,8 +53,6 @@ const EditNote = () => {
           value={content}
           placeholder="Content"
           onChange={(e) => {
-            // dispatch(deleteNote(id));
-            // dispatch(addNote(title, content));
             setContent(e.target.value);
           }}
         />

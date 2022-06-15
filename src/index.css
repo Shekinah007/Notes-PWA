@@ -101,7 +101,7 @@ input, textarea {
   font-size: 20px;
   outline: none;
   background-color: inherit;
-  
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 input{
   font-weight: 800;
@@ -187,7 +187,7 @@ p {
 .dateAndTime {
   color: green;
   font-style: italic;
-  font-family: cursive;
+  /* font-family: cursive; */
   font-size: 10px;
   margin-bottom: 5px;
 }
@@ -229,8 +229,8 @@ hr {
   transition: 0.5s;
 }
 .backButton:hover {
-  border-radius: 30%;
-  background-color: rgb(85, 143, 89);
+  border-radius: 50%;
+  background-color: rgb(217, 223, 217);
 }
 
 

@@ -20,9 +20,11 @@ const Note = () => {
       history.push("/Notes-PWA");
       return;
     }
-    dispatch(addNote(title, content));
-    localStorage.setItem("Notes", JSON.stringify(notes));
-    history.push("/Notes-PWA");
+    setTimeout(() => {
+      dispatch(addNote(title, content));
+      localStorage.setItem("Notes", JSON.stringify(notes));
+      history.push("/Notes-PWA");
+    }, 300);
   };
 
   return (
@@ -37,6 +39,7 @@ const Note = () => {
         />
         <label htmlFor="content"></label>
         <textarea
+          id="text-content"
           value={content}
           placeholder="Content"
           onChange={(e) => {
