@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Notes-PWA/static/css/main.aa2cc486.css",
-    "main.js": "/Notes-PWA/static/js/main.b51f1bda.js",
+    "main.js": "/Notes-PWA/static/js/main.545af502.js",
     "static/js/787.28cb0dcd.chunk.js": "/Notes-PWA/static/js/787.28cb0dcd.chunk.js",
     "service-worker.js": "/Notes-PWA/service-worker.js",
     "index.html": "/Notes-PWA/index.html",
@@ -12,11 +12,11 @@
     "static/media/delete_black_24dp.svg": "/Notes-PWA/static/media/delete_black_24dp.1129c53a10f3c716357028ea030e9d23.svg",
     "static/media/arrow_back_black_48dp.svg": "/Notes-PWA/static/media/arrow_back_black_48dp.5aefa7ce94077cb7fd0af3ec37dc4fe4.svg",
     "main.aa2cc486.css.map": "/Notes-PWA/static/css/main.aa2cc486.css.map",
-    "main.b51f1bda.js.map": "/Notes-PWA/static/js/main.b51f1bda.js.map",
+    "main.545af502.js.map": "/Notes-PWA/static/js/main.545af502.js.map",
     "787.28cb0dcd.chunk.js.map": "/Notes-PWA/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.aa2cc486.css",
-    "static/js/main.b51f1bda.js"
+    "static/js/main.545af502.js"
   ]
 }
