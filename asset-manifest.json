@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Notes-PWA/static/css/main.b758deb7.css",
-    "main.js": "/Notes-PWA/static/js/main.696c0929.js",
+    "main.css": "/Notes-PWA/static/css/main.45ba8bc6.css",
+    "main.js": "/Notes-PWA/static/js/main.6fe7f44a.js",
     "static/js/787.28cb0dcd.chunk.js": "/Notes-PWA/static/js/787.28cb0dcd.chunk.js",
     "static/media/pexels-sasha-martynov-1260727.jpg": "/Notes-PWA/static/media/pexels-sasha-martynov-1260727.11c4670af33193fd3094.jpg",
     "service-worker.js": "/Notes-PWA/service-worker.js",
@@ -12,12 +12,12 @@
     "static/media/schedule_black_24dp.svg": "/Notes-PWA/static/media/schedule_black_24dp.a4b551fe2d4116d8593bc203c24c6122.svg",
     "static/media/delete_black_24dp.svg": "/Notes-PWA/static/media/delete_black_24dp.1129c53a10f3c716357028ea030e9d23.svg",
     "static/media/arrow_back_black_48dp.svg": "/Notes-PWA/static/media/arrow_back_black_48dp.5aefa7ce94077cb7fd0af3ec37dc4fe4.svg",
-    "main.b758deb7.css.map": "/Notes-PWA/static/css/main.b758deb7.css.map",
-    "main.696c0929.js.map": "/Notes-PWA/static/js/main.696c0929.js.map",
+    "main.45ba8bc6.css.map": "/Notes-PWA/static/css/main.45ba8bc6.css.map",
+    "main.6fe7f44a.js.map": "/Notes-PWA/static/js/main.6fe7f44a.js.map",
     "787.28cb0dcd.chunk.js.map": "/Notes-PWA/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b758deb7.css",
-    "static/js/main.696c0929.js"
+    "static/css/main.45ba8bc6.css",
+    "static/js/main.6fe7f44a.js"
   ]
 }
